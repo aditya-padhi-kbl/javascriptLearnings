@@ -1,6 +1,5 @@
 import "./styles.css";
-// import BinarySearchTree from "./binarySearchTree";
-
+// import BinarySearchTree from "./BinarySearchTree";
 document.getElementById("app").innerHTML = `
 <h1>Hello Vanilla!</h1>
 <div>
@@ -14,7 +13,7 @@ document.getElementById("app").innerHTML = `
 // BST.insert(25);
 // BST.insert(10);
 // BST.insert(7);
-// BST.insert(22);
+// BST.insert(100);
 // BST.insert(17);
 // BST.insert(13);
 // BST.insert(5);
@@ -23,3 +22,4 @@ document.getElementById("app").innerHTML = `
 
 // let root = BST.getRootNode();
 // console.log(root)
+// console.log(BST.inorder(root))
